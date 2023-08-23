@@ -1,0 +1,31 @@
+
+input{
+    border-width: 0px;
+}
+
+select {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-family: 'Manrope';
+    font-size: 14px;
+    padding: 14px 24px;
+    min-width: 385px;
+    gap: 10px;
+    border-width: 0px;
+    background: #F3F6F9;
+    border-radius: 4px;
+}
+textarea {
+    resize: none;
+    width: 726px;
+    height: 92px;
+}
+
+h3{
+    margin: 0;
+}
+
+
+
+

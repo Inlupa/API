@@ -1,0 +1,22 @@
+{% extends "site_base.html" %}
+
+{% block content %}
+{% load i18n %}
+
+{% block subnav %}
+<div class="panel panel-default">
+    <div class="panel-heading"><strong>{% trans "Настройки" %}</strong></div>
+    <div class="list-group">
+        <a class="list-group-item account-settings" href="{% url "accounts:account_settings" %}">
+            {% trans "Настройка аккаунта" %}
+        </a>
+        <a class="list-group-item account-password" href="{% url "accounts:change" %}">
+            {% trans "Смена пароля" %}
+        </a>
+        <a class="list-group-item account-delete" href="{% url "accounts:account_delete" %}">
+            {% trans "Удалить аккаунт" %}
+        </a>
+    </div>
+</div>
+{% endblock %}
+{% endblock %}

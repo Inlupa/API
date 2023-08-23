@@ -1,0 +1,20 @@
+{% extends 'site_base.html' %}
+
+{% load static %}
+{% block content %}
+<h1 style="display: flex; text-align: center; justify-content: center"> Главная страничка </h1>
+<div class="navbar">
+        <div class="nav-container manrope">
+                        {% if request.user.is_authenticated %}
+                            <a class="navitem" href="/account/password"> Личный кабинет </a>
+                            <a class="navitem" href="/account/logout"> Выйти </a>
+
+                        {% else %}
+                        <a class="navitem" href="/account/login"> Войти </a>
+                        {% endif %}
+                        <a class="navitem" href="/users">Наши пользователи </a>
+        </div>
+    </div>
+</div>
+{% endblock %}
+

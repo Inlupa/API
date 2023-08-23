@@ -1,0 +1,167 @@
+html {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    background: #FFFFFF;
+    box-sizing: border-box;
+}
+
+/* это все дальше хедер */
+body {
+    margin: 0;
+}
+.login_wrapper{
+    margin:0 auto;
+}
+.login_form {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            padding: 30px;
+
+            width: 453px;
+            height: 423px;
+
+            /* BG/Light */
+            background: #F3F6F9;
+            border-radius: 30px;
+        }
+.login_title{
+            margin: 260px 0 0 0;
+            font-weight: 400;
+            font-size: 36px;
+            line-height: 49px;
+
+            color: #03213C;
+}
+
+.input_form_login{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+
+
+        width: 393px;
+        height: 47px;
+
+        background: #FFFFFF;
+        border-radius: 4px;
+
+        flex: none;
+        align-self: stretch;
+        flex-grow: 0;
+}
+.all_wrapper {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+
+.navbar_header {
+    width: 99%;
+
+    display: flex;
+    flex-direction: row;
+
+    justify-content: space-between;
+    padding: 10px;
+    gap: 100px;
+}
+
+.manrope_600 a {
+
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    color: #979FA7;
+    text-decoration: none;
+}
+
+
+.login_wrapper{
+    margin:0 auto;
+}
+.login_form {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            padding: 30px;
+
+            width: 453px;
+            height: 423px;
+
+            /* BG/Light */
+            background: #F3F6F9;
+            border-radius: 30px;
+        }
+.login_title{
+            margin: 260px 0 0 0;
+            font-weight: 400;
+            font-size: 36px;
+            line-height: 49px;
+
+            color: #03213C;
+}
+
+.input_form_login{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+
+
+        width: 393px;
+        height: 47px;
+
+        background: #FFFFFF;
+        border-radius: 4px;
+
+        flex: none;
+        align-self: stretch;
+        flex-grow: 0;
+}
+
+.navbar {
+    display: flex;
+}
+
+.nav-container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    gap: 10px;
+}
+
+.navitem {
+    display: flex;
+    font-size: 20px;
+    padding: 20px;
+    border-radius: 20px;
+    color:white;
+    text-decoration: none;
+    background-color: #8CC628;
+
+}
+
+@font-face {
+    font-family: 'Manrope';
+    src: local("../fonts/Manrope-Regular.ttf"), url("../fonts/Manrope-Regular.ttf") format("truetype");
+    font-weight: 400;
+    font-style: normal;
+}
+
+table  {
+  border-collapse:collapse
+}
+td, th {
+  border:1px solid #ddd;
+  padding:8px;
+}
+
+

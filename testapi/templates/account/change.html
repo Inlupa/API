@@ -1,0 +1,19 @@
+{% extends 'site_base.html' %}
+{% load static %}
+{% block content %}
+
+    <div class="extra_menu">
+        <a class="manrope" href="/account/password/"> Настройка профиля </a>
+    </div>
+
+    <form method="post">
+                {% csrf_token %}
+                {{ form }}
+                <button type="submit"> Save changes</button>
+    </form>
+
+</div>
+{% endblock %}
+
+
+
